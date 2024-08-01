@@ -1,0 +1,7 @@
+from pydantic import BaseModel
+
+class User(BaseModel):
+    session_key: str
+    account_id: str
+    # Dari body request  AC.verifyFiles
+    talent_hash: str = "7da52582be60n558k1bece2c31ce48e48e7b2bf0b85320a15e964430b8fccad8c1e198d04ecea6327eed68b68f797f97f245451af1416d7c97692034defdabfed054d495e4c0c69cceebd8a6d2196a48c99183649b1e33c6c4d6215c8d1544bd15652270c53428be2525d2e3efb5020afddcc71b428d73261ccd6ecbe05d3ae10f7eb07ebbf4728706b1af7bd93d6f6e9ae798bc3170cb09c10233550a8a31395c01d9be7269b7645f3409f5ab2f985cd84ceadda3166059df52367604426210eea88c20bfeeef5526e53efd5a8c2a8c"
